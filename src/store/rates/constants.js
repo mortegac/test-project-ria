@@ -1,0 +1,2 @@
+export const RATES_LOGS_GET = 'RATES_LOGS_GET';
+export const RATES_SET_AMOUNT = 'RATES_SET_AMOUNT';
