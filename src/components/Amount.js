@@ -5,7 +5,7 @@ import {setAmountValue} from '../store/rates/actions';
 import SectionCard from'./SectionCard';
 const Amount = ()=>{
   const dispatch = useDispatch()
-	const [amount, setAmount] = useState(0);
+	const [amount, setAmount] = useState(1);
 	
 	const handlerClick = (e) =>{
 		e.preventDefault();

@@ -1,6 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Card from './Card';
-
 const ListCard = ({list, amount})=>{
 
 	const calculatePrice = (value)=> parseFloat(amount)*parseFloat(value)
@@ -21,5 +21,8 @@ const ListCard = ({list, amount})=>{
 
 	)
 } 
-
+ListCard.propTypes = {
+	list : PropTypes.array.isRequired,
+	amount : PropTypes.number.isRequired,
+}
 export default ListCard;

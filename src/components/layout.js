@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Navbar from './Navbar';
 import Containner from './Containner';
-import Amount from './Amount';
 
 const Layout = ({children}) => {
 

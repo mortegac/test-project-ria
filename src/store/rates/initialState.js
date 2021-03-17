@@ -1,6 +1,6 @@
 
 export default {
     list: [],
-    amount:0,
+    amount:1,
     historic:[]
 };
