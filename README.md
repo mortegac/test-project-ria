@@ -5,10 +5,17 @@
 For the test project a small web app/mobile app should be created which utilizes a simple JSON rest API.
 
 <p align="center">
+ 
+ <h3>
+ <a href="https://ria.vercel.app/">Access to online demo</a>
+ </h3>
+
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/mortegac/test-project-ria/master/demo.gif">
 </p>
 
--- Demo: [https://ria.vercel.app/](https://ria.vercel.app/)
 
 
 - Step 1:
