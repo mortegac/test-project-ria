@@ -1,0 +1,21 @@
+
+GET https://api.exchangeratesapi.io/latest?base=EUR HTTP/1.1
+content-type: application/json
+
+
+# Get the latest foreign exchange reference rates.sd
+GET https://api.exchangeratesapi.io/latest HTTP/1.1
+content-type: application/json
+
+###
+GET https://api.exchangeratesapi.io/2010-01-12 HTTP/1.1
+content-type: application/json
+
+
+
+# History
+###
+GET https://api.exchangeratesapi.io/history?start_at=2021-03-01&end_at=2021-03-10&symbols=AUD HTTP/1.1
+content-type: application/json
+
+

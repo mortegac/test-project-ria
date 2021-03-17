@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from 'react-redux'
 
 import { getRatesList } from '../store/rates/actions';
 import ListCard from '../components/ListCard';
-
+import Amount from '../components/Amount';
 const RatesPage = ()=>{
 	const dispatch = useDispatch()
   const {module, fetching} = useSelector(store => store.loading);
@@ -28,6 +28,8 @@ const RatesPage = ()=>{
   }, []);
 
 	return( 
+		<>
+			<Amount/>
 			<div className="max-w rounded overflow-hidden bg-grey-100">
 				<div className="px-6 py-4">
 					
@@ -35,6 +37,7 @@ const RatesPage = ()=>{
 					
 				</div>
 			</div>
+		</>
 	)
 }
 
