@@ -25,6 +25,7 @@ const Amount = ()=>{
 									placeholder="0"
 									value={amount}
 									onChange={(e)=>setAmount(e.target.value)}
+									onBlur={(e)=>handlerClick(e)}
 									onFocus={()=>setAmount('')}
 								/>
 								<select 

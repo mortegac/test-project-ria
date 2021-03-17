@@ -1,7 +1,7 @@
 import React from 'react';
 import {FiArrowRightCircle} from 'react-icons/fi';
 
-const Card = ({id, value, amount})=>{
+const Card = ({id, value, amount, amountEUR})=>{
 
 	return(
 		// <div className="max-w rounded overflow-hidden shadow-lg bg-white">
@@ -16,8 +16,8 @@ const Card = ({id, value, amount})=>{
 			</section>
 			<section>
 				<p className="text-lg">{amount}</p>
-				<p className="text-xs font-thin">1 EUR = {value} {id}</p>
-				<p className="text-xs">1 {id} = 999 EUR</p>
+				<p className="text-xs font-thin">1 EUR = {amount} {id}</p>
+				<p className="text-xs">1 {id} = {amountEUR} EUR</p>
 			</section>
 
 
