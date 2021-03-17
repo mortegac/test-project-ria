@@ -7,6 +7,11 @@ For the test project a small web app/mobile app should be created which utilizes
 <p align="center">
   <img src="https://raw.githubusercontent.com/mortegac/test-project-ria/master/demo.gif">
 </p>
+
+-- Demo: [https://ria.vercel.app/](https://ria.vercel.app/)
+
+
+- Step 1:
 ### Installation Procedure
 
 - Step 1:  Download the repository by running 
@@ -41,3 +46,5 @@ npm run coverage
 ```
 
 Coverage report will be generated on coverage folder
+
+
