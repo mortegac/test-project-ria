@@ -18,7 +18,6 @@ For the test project a small web app/mobile app should be created which utilizes
 
 
 
-- Step 1:
 ### Installation Procedure
 
 - Step 1:  Download the repository by running 
