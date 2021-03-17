@@ -10,8 +10,6 @@ const Layout = ({children}) => {
 		<Containner>
 
 			<Navbar/>
-			<Amount/>
-
 			{children}
 		</Containner>  
 	)
